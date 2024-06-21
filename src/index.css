@@ -1,3 +1,6 @@
+
+/* index.css is typically used as the main entry point for global styles and Tailwind CSS configuration. */
+@import "./custom.css";
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +14,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
